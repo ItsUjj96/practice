@@ -3,8 +3,10 @@
 ## npm install 
 ## npm start
 
-After starting the application, you'll get a distorted UI.
+After starting the application, you'll get a distorted UI. The UI is not properly formatted. 
 You have to correct everything as per the given screenshot.
+
+
 **Note:** 
 You can use any images from google or for code you can take a reference from any online platform.
 Just make UI look like the image. 
