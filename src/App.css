@@ -1,0 +1,430 @@
+/* App.css */
+
+/* Basic styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 0 15%;
+}
+
+/* Navigation */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #fff;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+nav ul li {
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.try-for-free button {
+  background-color: #2196f3;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/* HomeSection */
+#home {
+  padding: 50px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-container img.logo {
+  width: 40px;
+  height: 40px;
+}
+
+.content-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 30px;
+}
+
+.left-section {
+  flex-basis: 50%;
+}
+
+.left-section h5 {
+  font-size: 18px;
+  color: #888;
+}
+
+.left-section h1 {
+  font-size: 32px;
+}
+
+.left-section p {
+  font-size: 18px;
+  color: #888;
+}
+
+.left-section button {
+  margin-top: 20px;
+  background-color: #2196f3;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.right-section img {
+  width: 100%;
+  height: auto;
+}
+
+.trusted-logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.trusted-logos p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.trusted-logos img {
+  width: 80px;
+  height: 80px;
+  margin: 10px;
+}
+
+/* KeyFeaturesSection.css */
+
+#key-features {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+#key-features .left-section {
+  flex-basis: 50%;
+}
+
+#key-features .right-section {
+  flex-basis: 50%;
+}
+
+#key-features .left-section img {
+  width: 100%;
+  height: auto;
+  transform: rotate(-5deg);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#key-features .right-section h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#key-features .right-section p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+#key-features .right-section .small-logo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+#key-features .right-section .small-logo img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+#key-features .right-section .small-logo p {
+  font-weight: bold;
+}
+
+
+/* PricingSection */
+#pricing {
+  padding: 50px;
+}
+
+.pricing-toggle {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.pricing-toggle label {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.pricing-cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pricing-card {
+  flex-basis: calc(50% - 20px);
+  background-color: #f0f0f0;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.pricing-card.highlight {
+  background-color: #2196f3;
+  color: #fff;
+}
+
+.pricing-card.highlight .price {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.pricing-card .title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.pricing-card .price {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.pricing-card ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.pricing-card ul li {
+  margin-bottom: 10px;
+}
+
+.pricing-card .button {
+  background-color: #2196f3;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/* TestimonialsSection */
+#testimonials {
+  padding: 50px;
+}
+
+.testimonial {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.testimonial img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.testimonial p {
+  margin: 0;
+}
+
+/* FAQSection */
+#faq {
+  padding: 50px;
+}
+
+.faq-question {
+  margin-bottom: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.faq-answer {
+  display: none;
+}
+
+.faq-answer.show {
+  display: block;
+}
+
+/* Footer */
+footer {
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-menu {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.footer-menu li {
+  margin-right: 15px;
+}
+
+.footer-social {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.footer-social a {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-color: #ccc;
+  margin-right: 10px;
+  border-radius: 50%;
+  color: #fff;
+  line-height: 30px;
+  text-align: center;
+}
+
+.footer-social a:hover {
+  background-color: #2196f3;
+}
+
+/* AdditionalComponent */
+.part1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.part1 > div {
+  flex-basis: 50%;
+}
+
+.border-line {
+  border-right: 1px solid #ccc;
+  height: 100px;
+  margin: 0 30px;
+}
+
+.part2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.part2 div {
+  flex-basis: 33.33%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.part2 img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 10px;
+}
+
+.part2 p {
+  margin: 0;
+}
+
+.part3 {
+  display: flex;
+  align-items: center;
+  padding: 50px;
+}
+
+.part3 .left-section img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+
+.part3 .right-section h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.part3 .right-section p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.learn-more-button {
+  background-color: #2196f3;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+/* WhyToChoose */
+#why-to-choose {
+  padding: 50px;
+}
+
+#why-to-choose h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#why-to-choose p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.why-choose-icons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.why-choose-icons div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.why-choose-icons img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 10px;
+}
+
+.why-choose-icons p {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
